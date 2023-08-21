@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>shooping cart</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <!-- Navbar content -->
+            <div class="container-fluid">
+                <a class="navbar-brand">Welcome to MyShop</a>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://raw.githubusercontent.com/med-salah-ben/shopping-cart/8f16e00afca585f6d81faff3c8d459f23353e531/images/bag.jpg" class="d-block w-100" alt="bag">
+              </div>
+              <div class="carousel-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Sports_shoes.jpg/1024px-Sports_shoes.jpg" class="d-block w-100" alt="shoes">
+              </div>
+              <div class="carousel-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg" class="d-block w-100" alt="t-shirt">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="containerProduct">
+            <div class="total">
+                <p id="totalPrice">Shooping Bag Total : $0</p> <span class="btnOrder">place an order</span>
+            </div>
+            <div class="row-product">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <img class="imgOne" src="https://static.wixstatic.com/media/772a98_25a4ba7b54a641ed9779fefa656c66d9~mv2.jpg/v1/crop/x_48,y_0,w_665,h_511/fill/w_542,h_502,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/external-file_edited.jpg" alt="shoes" />
+                <p><span>Shoes</span></p>
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <p class="qty">0</p>
+                <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                <p><span class="price">100</span></p>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="row-product">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <img class="imgOne" src="https://media.endclothing.com/media/catalog/product/2/5/25-05-2017_givenchy_tiebackdenimjean_deepblue_17j1011481-420_jtl_1.jpg" alt="jeans" />
+                <p><span>Jeans</span></p>
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <p class="qty">0</p>
+                <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                <p><span class="price">120</span></p>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="row-product">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <img class="imgOne" src="https://static.grafitee.fr/59452/t-shirt-messi.jpg" alt="t-shirt" />
+                <p><span>T-shirt</span></p>
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <p class="qty">0</p>
+                <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                <p><span class="price">80</span></p>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+          </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.dom.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./dom.js"></script>
+</body>
+</html>
